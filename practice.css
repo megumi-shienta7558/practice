@@ -2,5 +2,12 @@
 
 div {
   color: red;
-  font-size: 80px;
+  font-size: 3rem; /*16×５*/
+  background-color: rgba(250, 60, 250, 0.404);
+  width: calc(100% / 3); /*calc(100% - 80px);*/
+  /* margin-top: 100px; 上に余白をあける
+  margin-left: 100%; 左に余白をあける
+  margin-bottom: 50px; 下に余白をあける
+  margin-right: 0; 右に余白をあける */
+  margin: 100% 0 50px 100px; /*上、右、下、左*/
 }
