@@ -1,0 +1,27 @@
+/* a[href^="https://www"] */
+/* a[href*="yahoo"] { */
+/* "https://www"から始まるものの意味 */
+/* color: red; */
+/* } */
+/* a[href$="co.jp"] { */
+/* color: red; */
+/* } */
+/* 下の部分だけ揃えたい場合”＄”マークを使用する */
+/* article p:first-of-type { */
+/* color: red; */
+/* } */
+/* 始めの文字を指定する */
+/* article p:nth-last-of-type(2) { */
+/* color: red; */
+/* } */
+/* 指定して指示することができる。 */
+/* article p:not(:first-of-type) { */
+/* color: red; */
+/* } */
+/* p:hover { */
+/* background-color: pink; */
+/* } */
+/* p:not(:hover) { */
+/* color: pink; */
+/* } */
+/*  */
