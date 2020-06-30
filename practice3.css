@@ -1,0 +1,54 @@
+/* .normal { */
+/* background-color: coral; */
+/* } */
+
+/* .box { */
+/* background-color: pink; */
+/* Content box */
+/* width: 200px; */
+/* height: 200px; */
+/* widthとheightが200pxなのに値が変わっているのはボーダーなどの値がプラスされた値で表示される */
+
+/* Padding box   上右下左*/
+/* padding: 8px 12px 16px 20px; */
+
+/* Margin box */
+/* margin: 8px 12px 16px 20px; */
+/* margin-bottom: 20px; */
+
+/* Border box  solid(線の種類) dotted*/
+/* border: 5px solid black; */
+/* border-top: 10px solid black; */
+/* box-sizing: border-box; */
+/* } */
+/* .margin {
+  background-color: lightblue;
+  margin-top: 30px;
+} */
+/* 
+div,
+span {
+  background-color: orange;
+  width: 100px;
+  height: 100px;
+} */
+
+/* padding, margin, border の挙動　/ inline-block */
+.example {
+  background-color: pink;
+  padding: 20px;
+}
+/* .example {
+  margin: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: lawngreen;
+} */
+.example div {
+  /* display: block; */
+  display: inline;
+  margin: 20px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: lawngreen;
+}
